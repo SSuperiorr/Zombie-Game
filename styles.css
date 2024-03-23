@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#gameCanvas {
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto; /* Center the canvas horizontally */
+}
+
+#healthBar {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #fff;
+}
+
+.screen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#gameOverScreen, #winScreen {
+    color: #fff;
+}
